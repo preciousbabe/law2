@@ -14,7 +14,6 @@ body{
   font-family: "Lato", serif;
 }
 
-
 .container {
     width: 90%; /* Ensures responsiveness */
     max-width: 1200px; /* Prevents it from stretching too wide */
@@ -477,10 +476,10 @@ nav.scrolled .nav__links a {
     transform: translateY(-10px);
   }
   
-  .blog-item img {
-    width: 100%;
+  .blog-item-img img{
     height: 200px;
-    object-fit: cover;
+    object-fit: contain;
+    background-color: #bbb;
   }
   
   .blog-info {
